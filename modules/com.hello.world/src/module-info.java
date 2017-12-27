@@ -1,3 +1,0 @@
-module com.hello.world {
-
-}
