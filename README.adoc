@@ -1,19 +1,20 @@
-# Java 9 experiments
+= Java 9 experiments
 
-#JShell
-
-    $ jshell 
-
-## Compiling modules
+== Compiling modules
 
 Compile sources:
 
-    $ javac -d target/classes/com.hello.world.mars $(find ./com.hello.world.mars/ -name "*.java")
-    $ javac -p target/classes -d target/classes/com.hello.world $(find ./com.hello.world/ -name "*.java")
+[source,bash]
+----
+include::compile.sh[]
+----
 
 Execute: 
     
-    $ java -p target/classes -m com.hello.world/com.hello.world.Main
+[source,bash]
+----
+include::execute.sh[lines=2]
+----
 
 Create JARs
 
@@ -23,6 +24,9 @@ Create JARs
 Execute:
 
     $ java --module-path target/jars/ --module com.hello.world
+
+
+== link:jshell/README.adoc[JShell]
 
 
 ## JMod
