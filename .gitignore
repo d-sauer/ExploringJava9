@@ -1,6 +1,8 @@
 **/*.class
+**/*.iml
 .vscode
 .idea
+
 
 #Compiles classes
 classes
