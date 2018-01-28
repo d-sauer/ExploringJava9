@@ -18,6 +18,12 @@
             <artifactId>com.hello.world.mars</artifactId>
             <version>${project.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.github.d-sauer</groupId>
+            <artifactId>com.hello.world.api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 
 </project>

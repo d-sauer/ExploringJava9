@@ -10,14 +10,10 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>com.hello.world.mars</artifactId>
+    <artifactId>com.hello.world.api</artifactId>
 
     <dependencies>
-        <dependency>
-            <groupId>com.github.d-sauer</groupId>
-            <artifactId>com.hello.world.api</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+
     </dependencies>
 
 </project>

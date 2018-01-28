@@ -16,8 +16,9 @@
     </properties>
 
     <modules>
-        <module>com.hello.world.mars</module>
         <module>com.hello.world</module>
+        <module>com.hello.world.api</module>
+        <module>com.hello.world.mars</module>
     </modules>
 
     <build>

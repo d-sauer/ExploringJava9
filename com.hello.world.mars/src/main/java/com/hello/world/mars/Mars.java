@@ -1,9 +1,11 @@
 package com.hello.world.mars;
 
-public class Mars {
+import com.hello.world.api.Greeting;
 
-    public void printName(String name) {
-        System.out.println("Greetings from Mars, " + name);
+public class Mars implements Greeting {
+
+    @Override
+    public String planet() {
+        return "Mars";
     }
-
 }
