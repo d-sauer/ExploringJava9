@@ -7,10 +7,10 @@ import java.util.ServiceLoader;
 public class Main {
 
     public static void main(String[] args) {
-        Iterable<Greeting> load = ServiceLoader.load(Greeting.class);
+        var load = ServiceLoader.load(Greeting.class);
 
         load.forEach(greeting -> {
-            String greetingClassName = greeting.getClass().getName();
+            var greetingClassName = greeting.getClass().getName();
             System.out.println("Greetings: " + greetingClassName);
             greeting.greeting("Davor");
         });

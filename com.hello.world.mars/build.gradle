@@ -1,0 +1,7 @@
+javaModule.name = 'com.hello.world.mars'
+
+description = 'Hello world implementation for Mars module'
+
+dependencies {
+  api project(':com.hello.world.api')
+}

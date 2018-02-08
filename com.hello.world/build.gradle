@@ -1,0 +1,10 @@
+apply plugin: 'application'
+
+javaModule.name = 'com.hello.world'
+description = 'Main module for Hello world'
+mainClassName = "com.hello.world.Main"
+
+dependencies {
+  api project(':com.hello.world.api')
+  implementation project(':com.hello.world.mars')
+}

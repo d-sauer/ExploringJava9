@@ -42,3 +42,9 @@ Execute:
 - module layers
 - jlink - create custom JDK
 - services
+
+
+# Resources
+
+- https://plugins.gradle.org/plugin/org.gradle.java.experimental-jigsaw
+- https://docs.gradle.org/4.5/userguide/java_library_plugin.html

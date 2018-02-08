@@ -1,12 +1,24 @@
 **/*.class
-**/*.iml
 .vscode
 .idea
+.gradle
+**/build
+**/out
+**/bin
+**/target
 
-
-#Compiles classes
-classes
-target
 
 # Modules JAR files
 mods
+
+# Ignore IntelliJ files
+/.idea/
+**/*.iws
+**/*.ipr
+**/*.iml
+**/overlays/
+
+# Ignore Eclipse project files
+**/.settings
+**/.project
+**/.classpath
