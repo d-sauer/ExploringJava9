@@ -1,8 +1,9 @@
 rootProject.name = 'ExploringJava9'
-include ':com.hello.world'
-include ':com.hello.world.api'
-include ':com.hello.world.mars'
+include ':MainApp'
+//project(':MainApp').projectDir = "$rootDir/MainApp" as File
 
-project(':com.hello.world').projectDir = "$rootDir/com.hello.world" as File
-project(':com.hello.world.api').projectDir = "$rootDir/com.hello.world.api" as File
-project(':com.hello.world.mars').projectDir = "$rootDir/com.hello.world.mars" as File
+include ':com.hello.world.mars'
+//project(':com.hello.world.api').projectDir = "$rootDir/com.hello.world.api" as File
+
+include ':com.hello.world.api'
+//project(':com.hello.world.mars').projectDir = "$rootDir/com.hello.world.mars" as File

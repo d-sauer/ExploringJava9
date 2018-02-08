@@ -14,6 +14,7 @@ public class Main {
             System.out.println("Greetings: " + greetingClassName);
             greeting.greeting("Davor");
         });
+
     }
 
 

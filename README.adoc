@@ -1,4 +1,4 @@
-= Java 9 experiments
+= Java 10 & 9 experiments
 
 == Compiling modules
 
